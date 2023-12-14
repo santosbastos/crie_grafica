@@ -4,15 +4,11 @@ body {
 }
 
 h1 {
-  text-align: center; /* Centraliza o texto horizontalmente */
-  color: #333; /* Cor do texto */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Escolha uma fonte moderna e legível */
-  text-transform: uppercase; /* Transformar o texto em maiúsculas */
-  letter-spacing: 2px; /* Espaçamento entre as letras */
-  margin-bottom: 20px; /* Margem inferior para espaçamento do conteúdo abaixo */
+  color: #333; /* Cor do texto */
+  font-family: 'Arial', sans-serif; /* Fonte do texto */
+  padding: 20px 0; /* Adiciona espaçamento ao redor do texto */
 }
-
-/* Adicione mais propriedades conforme necessário para personalizar o estilo */
 
 /* Estilos adicionais, se necessário */
 
