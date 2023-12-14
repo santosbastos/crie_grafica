@@ -1,8 +1,8 @@
 /* Estilos CSS para organizar os vídeos e imagens lado a lado */
 h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Escolha uma fonte moderna e legível */
+  text-align: center; /* Centraliza o texto horizontalmente */
   color: #333; /* Cor do texto */
-  text-align: center; /* Alinhar o texto ao centro */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Escolha uma fonte moderna e legível */
   text-transform: uppercase; /* Transformar o texto em maiúsculas */
   letter-spacing: 2px; /* Espaçamento entre as letras */
   margin-bottom: 20px; /* Margem inferior para espaçamento do conteúdo abaixo */
@@ -10,12 +10,10 @@ h1 {
 
 /* Adicione mais propriedades conforme necessário para personalizar o estilo */
 
-
 /* Estilos adicionais, se necessário */
 
-
 /* Estilos CSS para organizar os vídeos e imagens lado a lado */
-.image-container1{
+.image-container1 {
   width: 100%;
   max-width: 100%;
   text-align: center;
