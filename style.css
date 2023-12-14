@@ -1,4 +1,8 @@
 /* Estilos CSS para organizar os vídeos e imagens lado a lado */
+body {
+  background-color: #f0f0f0; /* Substitua essa cor pelo código da cor desejada ou pelo nome da cor */
+}
+
 h1 {
   text-align: center; /* Centraliza o texto horizontalmente */
   color: #333; /* Cor do texto */
