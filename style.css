@@ -1,15 +1,44 @@
-/* Adicione estilos conforme necessário */
-body {
-  font-family: Arial, sans-serif;
-   background-color: #f4f4f4;
+/* Estilos CSS para organizar os vídeos e imagens lado a lado */
+h1 {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: #333; /* Cor do texto */
+  font-family: 'Arial', sans-serif; /* Fonte do texto */
+  padding: 20px 0; /* Adiciona espaçamento ao redor do texto */
 }
 
+/* Estilos adicionais, se necessário */
 
-h1 {
-  color: #333;
+
+/* Estilos CSS para organizar os vídeos e imagens lado a lado */
+.image-container1{
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.image-container1 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 img {
-  width: 50%;
-  height: auto;
+  width: calc(50% - 20px); /* Ajuste conforme necessário */
+  margin: 10px; /* Adicione margens conforme necessário */
+}
+
+.video-container {
+  display: flex;
+  margin-top: 20px; /* Adicione margem entre as imagens e os vídeos */
+}
+
+video {
+  width: 33%; /* Ajuste conforme necessário */
+  margin: 10px; /* Adicione margens conforme necessário */
 }
