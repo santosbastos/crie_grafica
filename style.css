@@ -1,26 +1,65 @@
-body {
-  background-color: #f0f0f0; /* Substitua essa cor pelo código da cor desejada ou pelo nome da cor */
+/* Reset de estilos para garantir uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  color: #333333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333333;
+  padding: 10px 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
 h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Escolha uma fonte moderna e legível */
-  color: #333; /* Cor do texto */
-  padding: 20px 0; /* Adiciona espaçamento ao redor do texto */
+  padding: 20px 0;
 }
 
-/* Estilos adicionais, se necessário */
+/* Estilos para as seções */
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #333333;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
 
 /* Estilos CSS para organizar os vídeos e imagens lado a lado */
 .image-container1 {
-  width: 100%;
-  max-width: 100%;
   text-align: center;
 }
 
 .image-container1 img {
   width: 100%;
-  height: auto;
   max-width: 100%;
 }
 
@@ -31,16 +70,28 @@ h1 {
 }
 
 img {
-  width: calc(50% - 20px); /* Ajuste conforme necessário */
-  margin: 10px; /* Adicione margens conforme necessário */
+  width: calc(50% - 20px);
+  margin: 10px;
 }
 
 .video-container {
   display: flex;
-  margin-top: 20px; /* Adicione margem entre as imagens e os vídeos */
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 video {
-  width: 33%; /* Ajuste conforme necessário */
-  margin: 10px; /* Adicione margens conforme necessário */
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+/* Adicione outros estilos conforme necessário */
+
+/* Exemplo de estilos para interatividade */
+#detalhes-servicos {
+  display: none;
+}
+
+.visivel {
+  display: block;
 }
