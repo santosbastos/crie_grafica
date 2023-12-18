@@ -8,6 +8,48 @@ h1 {
   color: #333; /* Cor do texto */
   padding: 20px 0; /* Adiciona espaçamento ao redor do texto */
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
 
 /* Estilos adicionais, se necessário */
 
