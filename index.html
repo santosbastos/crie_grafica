@@ -24,27 +24,38 @@
   <h1>Bem-vindo ao site da Gráfica Crie.Comunicação Visual</h1>
   <section id="sobre">
     <h2>Sobre Nós</h2>
-    <p>Descreva a Identidade da Gráfica<br>
-      
-  
-     </p>
+    <p><h1>Gráfica Crie.Comunicação Visual: Tudo em Comunicação Visual</h1><br>
+
+  <p><strong>Somos especializados em oferecer soluções completas em comunicação visual, proporcionando produtos personalizados de alta qualidade.</strong></p><br><br>
+
+  <h3>Nossos Principais Serviços:</h3><br>
+  <ul>
+    <li><span>Portas em ACM (Alumínio Composto):</span> Portas duráveis e resistentes. Estética moderna para transmitir uma imagem profissional.</li>
+
+    <li><span>Placas Personalizadas:</span> Variedade de placas para atender às suas necessidades. Destaque-se com uma apresentação visual impactante.</li>
+
+    <li><span>Toldos Atrativos:</span> Toldos personalizados para proporcionar visibilidade. Soluções que agregam valor estético ao seu espaço.</li>
+
+    <li><span>Adesivos Personalizados:</span> Adesivos de alta qualidade para diversas aplicações. Personalização que se destaca e comunica sua identidade.</li>
+  </ul>
+
+  <p>Nosso site oferece uma experiência intuitiva e informativa para os usuários. Explore nossa variedade de produtos, visualize exemplos de trabalhos anteriores e obtenha informações detalhadas sobre os serviços que oferecemos.</p>
+
+  <p>Estamos comprometidos em atender às suas necessidades de comunicação visual, proporcionando soluções que destacam sua presença no mercado. Se precisar de mais informações ou ajustes, estou à disposição!</p>
+ visuais que agregam valor à sua identidade e destacam sua presença no mercado.<br></p>
   </section>
 
   <!-- Imagens -->
-  <div class="image-container1">
-    <img src="imagens/1.jpg" alt="Logomarca da loja">
-  </div>
+  
 
   <section id="servicos">
     <h2>Nossos Serviços</h2>
     <p>Descrição de serviços oferecidos pela gráfica.</p>
+    <img src="img/2.jpg" alt="Imagem trabalho na grafica">
+    <img src="img/4.jpg" alt="Imagem Maquina grafica digital">
     <!-- Imagens relacionadas aos serviços -->
 
-  <!-- <div class="image-container">*/-->
-    <!-- <img src="imagens/servico1.jpg" alt="Serviço 1">
-      <img src="imagens/servico2.jpg" alt="Serviço 2">
-       Adicione outras imagens conforme necessário 
-    </div>-->
+  
   </section>
 
   <!-- Vídeos -->
@@ -53,23 +64,45 @@
     <div class="video-container">
       <!-- Vídeos relacionados aos serviços ou produção -->
       <video controls>
-        <source src="videos/video1.mp4" type="video/mp4">
+        <source src="videos/WhatsApp Video 2023-09-18 at 10.26.21.mp4" type="video/mp4">
       </video>
 
       <video controls>
-        <source src="videos/video2.mp4" type="video/mp4">
+        <source src="videos/WhatsApp Video 2023-09-18 at 10.26.23.mp4" type="video/mp4">
       </video>
+
+      <video controls>
+        <source src="videos/WhatsApp Video 2023-09-18 at 10.26.24.mp4" type="video/mp4">
+      </video>
+
+
       <!-- Adicione outros vídeos conforme necessário -->
     </div>
-  </section>
-
-  <!-- Adicione outras seções conforme necessário -->
-
-  <section id="contato">
+ 
+      <section id="contato">
     <h2>Contato</h2>
-    <!-- Adicione um formulário de contato ou solicitação de orçamento -->
-    <p>Formulário de contato ou informações de contato.</p>
+    <p>Entre em contato conosco para mais informações ou solicitação de orçamento.</p>
+
+    <form action="processar_formulario.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
   </section>
+
+ 
+
+  <footer>
+    <!-- Seu rodapé aqui -->
+  </footer>
+
 
   <script src="script.js"></script>
 </body>
